@@ -15,3 +15,62 @@ body{
     margin:0;
     padding:0;
 }
+
+/*=========================================================*/
+
+/*Header*/
+
+header{
+    display: flex;
+    background-color: white;
+    color:black;
+    justify-content: space-between;
+}
+
+header div .company-logo{
+    display:block;
+    width: 5rem;
+    max-height: 4rem;
+    margin-left: 2rem;
+}
+
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-right: 4rem;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+header nav li{
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+header nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*=========================================================*/
+
+/*Banner*/
+
+main{
+    margin-top: 1rem;
+}
+
+main .banner .name-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
