@@ -5,18 +5,22 @@
         <!--Metadata-->
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portfolio-IGR</title>
         <!--Stylesheet-->
         <link rel="stylesheet" href="./resources/css/style.css">
+        <!--Page Title-->
+        <title>Portfolio-IGR</title>
         <!--Fonts-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!--Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
 
     <body>
-
         <!--Header-->
         <header>
             <!--Logo-->
@@ -27,10 +31,10 @@
             <!--Navigation Menu-->
             <nav>
                 <ul>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Skills</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -39,25 +43,96 @@
         <main>
             <!--Banner-->
             <section class="banner">
-
-                <span class="name">Hi, I'm Isaac - &nbsp</span>
-                <span class="turquoise">Web Developer</span>
-                <span>!</span>
-
+                <h1>&lt;Hi, I'm <span class="turquoise">Isaac</span> - &nbsp<span class="turquoise">Web Developer</span>!&gt;</h1>
             </section>
 
             <!-- About Me -->
-            <section class="about-me">
-                <h2 class="turquoise">About Me</h2>
+            <section id="about-me">
+
+                <h2 class="turquoise">&lt;About Me&gt;</h2>
                 <p>
                     I'm a programming enthusiast with experience in diverse industries. I have written code for applications ranging from 
-                    industrial automation to Excel VBA templates to machine learning. Currently, I am focusing on full-stak web development. 
+                    <span class="turquoise">industrial automation</span> and <span class="turquoise">metrology</span>, to 
+                    <span class="turquoise">Excel VBA templates</span>, to <span class="turquoise">machine learning</span>. Currently, I 
+                    am focusing on <span class="turquoise">full-stack web development</span>. 
+                </p>
+
+                <h3 class="turquoise education">Education</h3>
+                <p>
+                    <ul class="indent4">
+                        <li><b class="turquoise">Purdue University</b> - <em>BS Mechanical Engineering (2019)</em></li>
+                        <li><b class="turquoise">Indiana University</b> - <em>BS Psychology (2019)</em></li>
+                        <li><b class="turquoise">Ball State University</b> - <em>MS Data Science (Expected 2024)</em></li>
+                    </ul>
                 </p>
 
             </section>
 
-        </main>
-        
+            <!--Projects-->
+            <section id="projects">
+
+                <h2 class="turquoise">&lt;Projects&gt;</h2>
+
+                <ul>
+                    <li><b class="turquoise">Portfolio Website</b> - project applies JS interactivity to a webpage</li>
+                    <li><b class="turquoise">Forture Teller</b> - project was developed in JS and provides the user with a 
+                        fortune consisting of: a fortune quote, lucky color, and lucky numbers.
+                    </li>
+                </ul>
+            </section>
+
+            <!--Skills-->
+            <section id="skills">
+
+                <h2 class="turquoise">&lt;Skills&gt;</h2>
+
+                <div id="skills-container">
+                    <i class="fa-brands fa-python brands"></i>
+                    <i class="fa-sharp fa-regular fa-r brands"></i>
+                    <span class="brands">C#</span>
+                    <i class="fa-sharp fa-regular fa-file-excel brands"></i>
+                    <i class="fa-brands fa-html5 brands"></i>
+                    <i class="fa-brands fa-css3-alt brands"></i>
+                    <i class="fa-brands fa-js brands"></i>
+                    <i class="fa-brands fa-node brands"></i>
+                    <i class="fa-brands fa-git brands"></i>
+                    <i class="fa-brands fa-github brands"></i>
+                    <i class="fa-brands fa-chrome brands"></i>
+                </div>
+
+            </section>
+
+
+            <!--Contact-->
+            <section id="contact">
+
+                <h2 class="turquoise">&lt;Contact&gt;</h2>
+
+                <div class="information-container">
+
+                    <div class="contact-element">
+                        <h3 class="turquoise">Phone Number:</h3>
+                        <span class="underline">(812)-900-2535</span>
+                    </div>
+    
+                    <div class="contact-element">
+                        <h3 class="turquoise">Email:</h3>
+                        <span class="underline">garciarojas117@gmail.com</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <footer>
+                <div class="footer-content">
+                    <span class="copyright">© 2023  Isaac Garcia Rojas, All Rights Reserved</span>
+                    <span class="location">Designed in CDMX</span>
+                </div>
+            </footer>
+
+        </main>  
     </body>
 
 </html>
