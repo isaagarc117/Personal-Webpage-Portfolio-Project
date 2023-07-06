@@ -6,9 +6,10 @@
 
 html {
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 16px;
-    color: black;
+    color: rgb(184, 185, 189);
+    background-color: rgb(35, 34, 38);
 }
 
 body{
@@ -16,15 +17,34 @@ body{
     padding:0;
 }
 
+section{
+    padding: 0 3rem;
+    margin-top: 4rem;
+}
+
+p{
+    line-height: 2rem;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.turquoise{
+    color:rgb(8, 185, 185);
+}
+
+
 /*=========================================================*/
 
 /*Header*/
 
 header{
     display: flex;
-    background-color: white;
-    color:black;
     justify-content: space-between;
+    padding: 0.5rem 0;
+    background-color: rgb(184, 185, 189);
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 0 0 15% 15%;
 }
 
 header div .company-logo{
@@ -32,6 +52,8 @@ header div .company-logo{
     width: 5rem;
     max-height: 4rem;
     margin-left: 2rem;
+    padding: 0.2rem 0.2rem;
+    border-radius: 50%;
 }
 
 header nav {
@@ -55,22 +77,29 @@ header nav li{
 }
 
 header nav li a{
+    font-family: 'Inter', sans-serif;
     text-decoration: none;
-    font-weight: bold;
-    color: black;
+    font-weight: 200;
+    color: rgb(35, 34, 38);
 }
 
 /*=========================================================*/
 
 /*Banner*/
 
-main{
-    margin-top: 1rem;
-}
-
-main .banner .name-title{
+.banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+
 }
+
+
+/*=========================================================*/
+
+/*About Me*/
+
+/*This section is fully defined using global styling. Check out the section selector*/
