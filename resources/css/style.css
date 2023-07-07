@@ -143,7 +143,27 @@ header nav li a{
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
+}
 
+.banner h1 {
+    margin-bottom: 1rem;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+#reset-button{
+    height: 2.5rem;
+    width: 6rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(255, 255, 255);
+    background-color:rgb(55, 192, 21);
+    box-shadow: 0.5px 1px green; 
 }
 
 /*=========================================================*/
