@@ -45,7 +45,7 @@ function resetColor(event){
         changesColorArray[i].style.color = originalColor;
     }
 
-    event.target.style.display = 'none';
+    resetButton.style.display = 'none';
 
 };
 
