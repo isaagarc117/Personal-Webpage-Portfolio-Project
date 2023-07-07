@@ -68,6 +68,17 @@ h3{
     text-decoration: underline;
 }
 
+.offset-anchor{
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    top: -115px;
+    left: 0;
+    visibility: hidden;
+}
+
 /*=========================================================*/
 
 /*Header*/
@@ -163,8 +174,12 @@ header nav li a{
 
 /*Contact*/
 
-#contact{
+.contact{
     padding-bottom: 2rem;
+}
+
+.contact-element .info{
+    font-size: 1.25rem;
 }
 
 .information-container{
@@ -190,9 +205,7 @@ footer {
   
   .footer-content {
     display: flex;
-    /**/
     justify-content: space-around;
-    /**/
     font-size: 1rem;
   }
   
